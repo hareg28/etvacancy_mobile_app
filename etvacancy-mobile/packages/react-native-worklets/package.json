@@ -1,0 +1,10 @@
+{
+  "name": "react-native-worklets",
+  "version": "1.0.0-shim",
+  "description": "Shim that forwards to react-native-worklets-core",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "react-native-worklets-core": "*"
+  }
+}

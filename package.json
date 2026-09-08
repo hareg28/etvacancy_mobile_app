@@ -1,0 +1,21 @@
+{
+  "name": "etvacancy-monorepo",
+  "private": true,
+  "workspaces": [
+    "etvacancy-mobile",
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:mobile": "npm run start --workspace=etvacancy-mobile",
+    "dev:web": "npm run web --workspace=etvacancy-mobile",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
